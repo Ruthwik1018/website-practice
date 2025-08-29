@@ -44,6 +44,12 @@
 @media (max-width: 850px ) {
   .video-grid{grid-template-columns: 1fr 1fr ;}
 }
+@media (min-width: 851px) and (max-width: 1199px){
+  .video-grid{grid-template-columns: 1fr 1fr 1fr;}
+}
+@media (min-width: 1200px) {
+  .video-grid{grid-template-columns: 1fr 1fr 1fr 1fr;}
+}
 
 .video-time{
   background-color: black;
@@ -56,4 +62,5 @@
   padding: 4px;
   font-weight: 550;
   border-radius: 2px;
+
 }
